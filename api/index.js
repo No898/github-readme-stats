@@ -64,7 +64,6 @@ export default async (req, res) => {
       }),
     );
   }
-console.log("GitHub token loaded:", !!process.env.GITHUB_TOKEN);
 
   try {
     const showStats = parseArray(show);
